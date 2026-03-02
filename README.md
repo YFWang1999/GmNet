@@ -68,13 +68,12 @@ python benchmark_onnx.py.py
 
 ## BibTeX
 
-    @inproceedings{ma2024rewrite,
-        title={GMNET: REVISITING GATING MECHANISMS FROM A
-FREQUENCY VIEW},
-        author={Xu Ma and Xiyang Dai and Yue Bai and Yizhou Wang and Yun Fu},
-        booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-        year={2024}
-    }
+    @article{wang2025gmnet,
+        title={GmNet: Revisiting Gating Mechanisms From A Frequency View},
+        author={Wang, Yifan and Ma, Xu and Zhang, Yitian and Wang, Zhongruo and Kim, Sung-Cheol and Mirjalili, Vahid and Renganathan, Vidya and Fu, Yun},
+        journal={arXiv preprint arXiv:2503.22841},
+        year={2025}
+        }
 
 ## License
 The majority of GmNet is licensed under an [Apache License 2.0](https://github.com/ma-xu/Rewrite-the-Stars/blob/main/LICENSE)
