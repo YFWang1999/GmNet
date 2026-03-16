@@ -56,7 +56,7 @@ To train the model on a single node with 8 GPUs for 300 epochs and distributed e
 python3 -m torch.distributed.launch --nproc_per_node=8 train_imagenet.py --data {path to dataset} --model gmnet_s3 -b 256 --lr 3e-3 --weight-decay 0.05 --aa rand-m1-mstd0.5-inc1 --cutmix 0.2 --color-jitter 0. --drop-path 0. --log-wandb
 ```
 
-You can find the checkpoints in [Google Drive](https://drive.google.com/drive/folders/1hUF4ozaNTLl6TxQM87jOfD7evWD585NY?usp=drive_link)
+You can find the checkpoints in [Google Drive](https://drive.google.com/drive/folders/1hUF4ozaNTLl6TxQM87jOfD7evWD585NY?usp=drive_link) (Keep Updating ...)
 
 ## Speed test
 
